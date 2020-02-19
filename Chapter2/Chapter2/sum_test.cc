@@ -23,7 +23,7 @@ public:
 		{
 			std::string strTop = queValues.front();
 			queValues.pop();
-			printf("%s\n", strTop.c_str());
+			printf(":: %s\n", strTop.c_str());
 		}
 	}
 };
